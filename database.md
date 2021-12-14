@@ -3,6 +3,7 @@
 | id           | Int     | id             | 主键、非空、自增                              |
 | :----------- | ------- | -------------- | --------------------------------------------- |
 | userName     | String  | 用户名         | 非空，唯一                                    |
+| passWord     | String  | 密码           | 非空                                         |
 | sex          | Integer | 性别           | 0为男，1为女，默认为0                         |
 | nickName     | String  | 昵称           | 可以为空，默认为 “用户_id"                    |
 | introduction | String  | 个人简介       | 可为空                                        |
